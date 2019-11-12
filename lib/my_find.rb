@@ -8,3 +8,8 @@ def my_find(collection)
     i += 1
   end
 end
+
+
+array = [19, 18, 17]
+
+my_find(array) {|num| num == 18}
