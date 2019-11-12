@@ -12,4 +12,4 @@ end
 
 array = [19, 18, 17]
 
-my_find(array) {|num| num == 18}
+puts my_find(array) {|num| num == 18}
